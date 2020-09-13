@@ -1,0 +1,14 @@
+[package]
+name = "typenum-uuid"
+version = "0.1.0"
+authors = ["e"]
+edition = "2018"
+
+[lib]
+proc_macro = true
+
+[dependencies]
+uuid = { version = "0.8", features = [ "v4" ] }
+
+[dev-dependencies]
+typenum = { version = "1.12.0", features = [ "i128" ] }
